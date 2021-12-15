@@ -16,7 +16,7 @@ if index_to_park > -1 and index_to_park < 7:
         print("Occupied !!!")
     else:
         print("You can park there!")
-    parking[index_to_park] = 1
+        parking[index_to_park] = 1
 else:
         print("I can't park in that place!!!")
 
